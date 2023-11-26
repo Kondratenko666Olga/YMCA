@@ -1,313 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>YMCA_Kyiv</title>
 
     <!-- Bootstrap -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,800" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="icomoon/style.css">
-    
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,800"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="icomoon/style.css" />
+    <link rel="icon" type="image/jpg" href="img/logo.png" />
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
-<body data-spy="scroll" data-target=".navbar-example">
+  </head>
+  <body data-spy="scroll" data-target=".navbar-example">
     <header id="glav">
-        <div class="wrap">
-            <nav class="navbar navbar-default navbar-fixed-top navbar-example" role="navigation">
-                <div class="container">
-                    <div class="containerLog">
-                        <a href="#glav">
-                            <img src="img/logo.png">
-                        </a>
-                        <h3>Київська молодіжна волонтерська організація</h3>
-                    </div>
-
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                 </button>
-                    <div class="collapse navbar-collapse" id="menu">
-                    <ul class="nav nav-pills">
-                        <li role="presentation" class=""><a href="#glav">Головна</a>   </li>
-                        <li role="presentation"><a href="#ymca">Що таке УМСА</a>    </li>
-                        <li role="presentation"><a href="#programs">Програми</a></li>
-                        <li role="presentation"><a href="#novosty">Новини</a></li>
-                        <li role="presentation"><a href="#afisha">Афіша</a></li>
-                        <li role="presentation"><a href="#kontakts">Контакти</a></li>
-                    </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-        <div class="slider">
-            <!-- Обгортка для слайдів -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="img/Team.jpg" alt="Наша Команда">
-                    <div class="carousel-caption"> <h2>Наша Команда</h2>    </div>
-                </div>
-                <div class="item">
-                    <img src="img/SocialW.jpg" alt="Соціальна робота">
-                    <div class="carousel-caption"><h2>Соціальна робота</h2></div>
-                </div>
-                <div class="item">
-                    <img src="img/Ivent.jpg" alt="Івент-програми">
-                    <div class="carousel-caption"><h2>Івент-програми</h2>   </div>
-                </div>
+      <div class="wrap">
+        <nav
+          class="navbar navbar-default navbar-fixed-top navbar-example"
+          role="navigation"
+        >
+          <div class="container">
+            <div class="containerLog">
+              <a href="#glav">
+                <img src="img/logo.png" />
+              </a>
+              <h3>Київська молодіжна волонтерська організація</h3>
             </div>
-            <!-- Управління -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Попередній</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Наступний</span>
-            </a>
+
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#menu"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav nav-pills">
+                <li role="presentation" class="">
+                  <a href="#glav">Головна</a>
+                </li>
+                <li role="presentation"><a href="#ymca">Що таке УМСА</a></li>
+                <li role="presentation"><a href="#programs">Програми</a></li>
+                <li role="presentation"><a href="#novosty">Новини</a></li>
+                <li role="presentation"><a href="#afisha">Афіша</a></li>
+                <li role="presentation"><a href="#kontakts">Контакти</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div
+        id="carousel-example-generic"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-example-generic"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="slider">
+          <!-- Обгортка для слайдів -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/Team.jpg" alt="Наша Команда" />
+              <div class="carousel-caption"><h2>Наша Команда</h2></div>
+            </div>
+            <div class="item">
+              <img src="img/SocialW.jpg" alt="Соціальна робота" />
+              <div class="carousel-caption"><h2>Соціальна робота</h2></div>
+            </div>
+            <div class="item">
+              <img src="img/Ivent.jpg" alt="Івент-програми" />
+              <div class="carousel-caption"><h2>Івент-програми</h2></div>
+            </div>
+          </div>
+          <!-- Управління -->
+          <a
+            class="left carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="glyphicon glyphicon-chevron-left"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Попередній</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="glyphicon glyphicon-chevron-right"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Наступний</span>
+          </a>
         </div>
-    </div>
-    <div class="wrap">
+      </div>
+      <div class="wrap">
         <section id="events">
-            <h2> Найближчі події:</h2>
-            <div class="row">           
+          <h2>Найближчі події:</h2>
+          <div class="row">
             <div class="ev col-md-4">
-                <div class="im">
-                    <img src="img/Speak.png">
-                </div>
-                <div class="texNews">Друзі! 
-                12.10 (середа) о 19:00 YMCA Kyiv Speaking Club Y's Talk запрошує вас провести гарно вечір в гарній компанії.</div>
+              <div class="im">
+                <img src="img/Speak.png" />
+              </div>
+              <div class="texNews">
+                Друзі! 12.10 (середа) о 19:00 YMCA Kyiv Speaking Club Y's Talk
+                запрошує вас провести гарно вечір в гарній компанії.
+              </div>
             </div>
             <div class="ev col-md-4 ev2">
-                <div class="im">
-                    <img src="img/Scout.png">
-                </div>
-                <div class="texNews">Хочеш випробувати себе?  Кинути собі виклик та перевершити власні можливості?
-                YMCA Scouts - Ukraine допоможуть!</div>
+              <div class="im">
+                <img src="img/Scout.png" />
+              </div>
+              <div class="texNews">
+                Хочеш випробувати себе? Кинути собі виклик та перевершити власні
+                можливості? YMCA Scouts - Ukraine допоможуть!
+              </div>
             </div>
             <div class="ev col-md-4">
-                <div class="im">
-                    <img src="img/Camp.png">
-                </div>
-                <div class="texNews">YMCA Kyiv Peace Camp – это детский лагерь, направленный на социализацию и личностное развитие детей.</div>
+              <div class="im">
+                <img src="img/Camp.png" />
+              </div>
+              <div class="texNews">
+                YMCA Kyiv Peace Camp – это детский лагерь, направленный на
+                социализацию и личностное развитие детей.
+              </div>
             </div>
-            </div>
+          </div>
         </section>
         <section id="nevs">
-            
-            <h2> Новини:</h2>
-            <div class="row">
+          <h2>Новини:</h2>
+          <div class="row">
             <div class="ev col-md-4">
-                <div class="im">
-                    <img src="img/social.png">
-                </div>
-                <div class="texNews">Волонтери УМСА Києва та студенти Київського коледжу міського господарства готуються до чергової поїздки в школу -інтернат в с. Удайці 26 листопада =)</div>
+              <div class="im">
+                <img src="img/social.png" />
+              </div>
+              <div class="texNews">
+                Волонтери УМСА Києва та студенти Київського коледжу міського
+                господарства готуються до чергової поїздки в школу -інтернат в
+                с. Удайці 26 листопада =)
+              </div>
             </div>
             <div class="ev col-md-4 ev2">
-                <div class="im">
-                    <img src="img/lviv.png">
-                </div>
-                <div class="texNews">12-13 листопада відбувся локальний обмін в м. Львів, де волонтери УМСА Києва та студенти Київського коледжу міського господарства побували на фестивалі "Гра в нас".</div>
+              <div class="im">
+                <img src="img/lviv.png" />
+              </div>
+              <div class="texNews">
+                12-13 листопада відбувся локальний обмін в м. Львів, де
+                волонтери УМСА Києва та студенти Київського коледжу міського
+                господарства побували на фестивалі "Гра в нас".
+              </div>
             </div>
             <div class="ev col-md-4">
-                <div class="im">
-                    <img src="img/cop.png">
-                </div>
-                <div class="texNews">Вітаємо нашу Марту Трофімову​ з першою конференцією #COP22, де була представником світового альянсу УМСА. </div>
+              <div class="im">
+                <img src="img/cop.png" />
+              </div>
+              <div class="texNews">
+                Вітаємо нашу Марту Трофімову​ з першою конференцією #COP22, де
+                була представником світового альянсу УМСА.
+              </div>
             </div>
-            </div>
+          </div>
         </section>
-    </div>
+      </div>
     </header>
     <div class="wrap content">
-        <section id="ymca">
-            <div class="imgWorld">
-                <img src="img/WorldYMCA.png" alt="YMCA">
+      <section id="ymca">
+        <div class="imgWorld">
+          <img src="img/WorldYMCA.png" alt="YMCA" />
+        </div>
+        <div class="about">
+          <p>
+            Християнська асоціація молодих людей (ХАМЛ) (англ. Young Men's
+            Christian Association (YMCA) — «християнська асоціація для юнаків» і
+            англ. Young Women's Christian Association (YWCA) — «християнська
+            асоціація для молодих дівчат») — одна з найбільших християнських
+            молодіжних організацій у світі. У деяких країнах вони об'єдналися
+            разом під назвою YWCA—YMCA.
+          </p>
+        </div>
+        <div class="more">
+          <button
+            type="button"
+            class="btn btn-danger"
+            data-toggle="collapse"
+            data-target="#demo"
+            aria-expanded="false"
+            aria-controls="demo"
+          >
+            <img src="img/more.png" />
+          </button>
+        </div>
+        <div id="demo" class="moreText collapse">
+          <p>
+            Перший осередок асоціації на території України був заснований в
+            Києві у 1913 році за підтримки Джорджа М. Дея державного секретаря з
+            розвитку Американської асоціації. Активно брав участь в створенні
+            YMCA співробітник Київського політехнічного інституту професор
+            Сльозкін. Серед програм YMCA головне місце займали заняття по
+            вивченню Біблії, курси англійської мови, зустрічі студентів для
+            обговорення питань духовного життя, які їх турбують. Після початку
+            Першої світової війни особливо гостро стало питання про організацію
+            допомоги пораненим солдатам силами студентів в шпиталях, які були
+            створені в КПІ та Університетській хірургічній клініці. Також,
+            молодь YMCA робила все можливе для допомоги військовополоненим.
+            Революція 1917 року припиняє діяльність YMCA. 1993 року YMCA
+            відновлює роботу в Україні у місті Красний Луч. У часи, коли
+            практично не було молодіжних неурядових організацій після краху
+            комуністичного режиму. Зі самого початку діяльності зусилля були
+            направлені на поліпшення та урізноманітнення життя молодих людей.
+            Станом на 2010 рік існує 19 локальних організацій. Основні напрямки
+            роботи: скаутинг, тенсинг, спорт, профілактика негативних явищ у
+            молоді та гендерна рівність.
+          </p>
+        </div>
+      </section>
+
+      <section id="programs">
+        <h2>Програми</h2>
+        <div class="row">
+          <div class="firftProg">
+            <div class="socProg col-md-6">
+              <div class="im">
+                <img src="img/socWork.png" alt="socialWork" />
+              </div>
+              <div class="textCont">
+                Соціальна робота Робота із переселенцями, поїздки до
+                будинків-інтернатів та просто дарування счастя людям. Все це є у
+                нас.
+              </div>
             </div>
-            <div class="about">
-                <p>Християнська асоціація молодих людей (ХАМЛ) (англ. Young Men's Christian Association (YMCA) — «християнська асоціація для юнаків» і англ. Young Women's Christian Association (YWCA) — «християнська асоціація для молодих дівчат») — одна з найбільших християнських молодіжних організацій у світі. У деяких країнах вони об'єдналися разом під назвою YWCA—YMCA.
-                </p>
+            <div class="scoutProg col-md-6">
+              <div class="im">
+                <img src="img/Scout.png" alt="Scouting" />
+              </div>
+              <div class="textCont">
+                Скаутинг Хочеш випробувати себе? Кинути собі виклик та
+                перевершити власні можливості? YMCA Scouts - Ukraine допоможуть!
+              </div>
             </div>
-            <div class="more">
-                <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo" aria-expanded="false" aria-controls="demo">
-                    <img src="img/more.png">
-                </button>
+          </div>
+        </div>
+
+        <div class="secondProg">
+          <div class="row">
+            <div class="ten-cingProg col-md-6">
+              <div class="im">
+                <img src="img/ten-cing.png" alt="Ten-cing" />
+              </div>
+              <div class="textCont">
+                Ten Sing YMCA – ми хочемо через творчість донести важливість
+                соціальних проблем суспільства і вирішити їх.
+              </div>
             </div>
-            <div id="demo" class="moreText collapse">
-                <p>Перший осередок асоціації на території України був заснований в Києві у 1913 році за підтримки Джорджа М. Дея державного секретаря з розвитку Американської асоціації. Активно брав участь в створенні YMCA співробітник Київського політехнічного інституту професор Сльозкін. Серед програм YMCA головне місце займали заняття по вивченню Біблії, курси англійської мови, зустрічі студентів для обговорення питань духовного життя, які їх турбують.
-                Після початку Першої світової війни особливо гостро стало питання про організацію допомоги пораненим солдатам силами студентів в шпиталях, які були створені в КПІ та Університетській хірургічній клініці. Також, молодь YMCA робила все можливе для допомоги військовополоненим.
-                Революція 1917 року припиняє діяльність YMCA.
-                1993 року YMCA відновлює роботу в Україні у місті Красний Луч. У часи, коли практично не було молодіжних неурядових організацій після краху комуністичного режиму. Зі самого початку діяльності зусилля були направлені на поліпшення та урізноманітнення життя молодих людей. Станом на 2010 рік існує 19 локальних організацій.
-                Основні напрямки роботи: скаутинг, тенсинг, спорт, профілактика негативних явищ у молоді та гендерна рівність.</p>
+            <div class="campProg col-md-6">
+              <div class="im">
+                <img src="img/Camp.png" alt="Peace Camp" />
+              </div>
+              <div class="textCont">
+                YMCA Kyiv Peace Camp – це дитячий табір, направлений на
+                соціалізацію і особистісний розвиток детей.
+              </div>
             </div>
-        </section>
-        
-        <section id="programs">
-            <h2>Програми</h2>
-            <div class="row">
-                <div class="firftProg">
-                    <div class="socProg col-md-6">
-                        <div class="im">
-                            <img src="img/socWork.png" alt="socialWork">
-                        </div>
-                        <div class="textCont">
-                    Соціальна робота
-                    Робота із переселенцями, поїздки до будинків-інтернатів та просто дарування счастя людям. Все це є у нас.
-                    </div>
-                    </div>
-                    <div class="scoutProg col-md-6">
-                        <div class="im">
-                            <img src="img/Scout.png" alt="Scouting">
-                        </div>
-                        <div class="textCont">
-                    Скаутинг
-                    Хочеш випробувати себе?  Кинути собі виклик та перевершити власні можливості?
-                    YMCA Scouts - Ukraine допоможуть!
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="novosty">
+        <h2>Новини</h2>
+        <div class="firftProg">
+          <div class="row">
+            <div class="social col-md-6">
+              <div class="im">
+                <img src="img/social.png" />
+              </div>
+              <div class="textCont">
+                Волонтери УМСА Києва та студенти Київського коледжу міського
+                господарства готуються до чергової поїздки в школу -інтернат в
+                с. Удайці 26 листопада =)
+              </div>
             </div>
-            
-            <div class="secondProg">
-                <div class="row">
-                    <div class="ten-cingProg col-md-6">
-                        <div class="im">
-                            <img src="img/ten-cing.png" alt="Ten-cing">
-                        </div>
-                        <div class="textCont">
-                        Ten Sing YMCA – 
-                        ми хочемо через творчість донести важливість соціальних проблем суспільства і вирішити їх.
-                        </div>
-                    </div>
-                    <div class="campProg col-md-6">
-                        <div class="im">
-                            <img src="img/Camp.png" alt="Peace Camp">
-                        </div>
-                        <div class="textCont">
-                        YMCA Kyiv Peace Camp – це дитячий табір, направлений на соціалізацію і особистісний розвиток детей.
-                        </div>
-                    </div>
-                </div>
-            </div>     
-        </section>
-        
-        <section id="novosty">
-            <h2>Новини</h2>
-                <div class="firftProg">
-                    <div class="row">
-                        <div class="social col-md-6">
-                            <div class="im">
-                                <img src="img/social.png">
-                            </div>
-                            <div class="textCont">
-                    Волонтери УМСА Києва та студенти Київського коледжу міського господарства готуються до чергової поїздки в школу -інтернат в с. Удайці 26 листопада =)
-                            </div>
-                        </div>
-                        <div class="lviv col-md-6">
-                            <div class="im">
-                                <img src="img/lviv.png">
-                            </div>
-                            <div class="textCont">
-                    12-13 листопада відбувся локальний обмін в м. Львів, де волонтери УМСА Києва та студенти Київського коледжу міського господарства побували на фестивалі "Гра в нас".
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="secondProg">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="im">
-                            <img src="img/cop.png">
-                        </div>
-                        <div class="textCont">
-                        Вітаємо нашу Марту Трофімову​ з першою конференцією #COP22, де була представником світового альянсу УМСА. 
-                        </div>
-                    </div>
-                </div>
+            <div class="lviv col-md-6">
+              <div class="im">
+                <img src="img/lviv.png" />
+              </div>
+              <div class="textCont">
+                12-13 листопада відбувся локальний обмін в м. Львів, де
+                волонтери УМСА Києва та студенти Київського коледжу міського
+                господарства побували на фестивалі "Гра в нас".
+              </div>
             </div>
-        </section>
-        
-        <section id="afisha">
-            <h2>Афіша</h2>
-                <div class="firstAf">
-                    <div class="row">
-                        <div class="engAf col-md-6">
-                            <div class="im-container">
-                                <img src="img/Speak.png">
-                            </div>
-                            <div class="textContA">
-                            Вітаємо нашу Марту Трофімову​ з першою конференцією #COP22, де була представником світового альянсу УМСА. 
-                            </div>
-                        </div>
-                        <div class="scoutAf col-md-6">
-                            <div class="im-container">
-                                <img src="img/Scout.png">
-                            </div>
-                            <div class="textContA">
-                            Скаути YMCA Kyiv вміють пристосуватись до будь яких умов, а Ви?)) Ми збираємось щопонеділка о 19:15 в Громадський Хаб, приходьте                        
-                            Чекаємо;)
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="secondAf col-md-7">
-                        <div class="teatImg">
-                            <div class="im-container">
-                                <img src="img/teatr.png">
-                            </div>
-                        </div>
-                        <div class="textTeat">
-                        Запрошуємо всіх небайдужих до проблем інших людей та всього суспільства розділити переживання героїв цієї історії, та спробувати разом знайти відповіді на гострі питання сьогодення.
-                        1 грудня о 13:20 за адресою: І.Кудрі 33.
-                        </div>
-                    </div>
-                </div>
-        </section>
-        
-        <section id="kontakts">
-            <h2>Контакти</h2>
-            <div class="row">
-                <div class="socialKontakt col-md-6">
-                    <h4>Шукайте нас у соціальних мережах:</h4>
-                    <a href="https://www.facebook.com/ymcakyiv/"><span class="icon-facebook2"></span> Facebook</a>
-                    <a href="https://www.instagram.com/ymca_kyiv/"><span class="icon-instagram"></span> Instagram</a>
-                    <a href="https://www.youtube.com/channel/UCzCjeKxzVeggQ7eACJGVQQA"><span class="icon-youtube"></span> YouTube</a>
-                </div>
-                <div class="socKont col-md-6">
-                    <h4 class="if">Якщо у Вас виникли запитання, пишіть та телефонуйте:</h4>
-                    <span>+38 (073) 800-11-11</span>
-                    <span>+38 (068) 800-11-11</span>
-                    <a href="mailto:YMCA_Kyiv@in.ua"><span class="icon-mail"></span> YMCA_Kyiv@in.ua</a>
-                </div>
+          </div>
+        </div>
+        <div class="secondProg">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="im">
+                <img src="img/cop.png" />
+              </div>
+              <div class="textCont">
+                Вітаємо нашу Марту Трофімову​ з першою конференцією #COP22, де
+                була представником світового альянсу УМСА.
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="afisha">
+        <h2>Афіша</h2>
+        <div class="firstAf">
+          <div class="row">
+            <div class="engAf col-md-6">
+              <div class="im-container">
+                <img src="img/Speak.png" />
+              </div>
+              <div class="textContA">
+                Вітаємо нашу Марту Трофімову​ з першою конференцією #COP22, де
+                була представником світового альянсу УМСА.
+              </div>
+            </div>
+            <div class="scoutAf col-md-6">
+              <div class="im-container">
+                <img src="img/Scout.png" />
+              </div>
+              <div class="textContA">
+                Скаути YMCA Kyiv вміють пристосуватись до будь яких умов, а
+                Ви?)) Ми збираємось щопонеділка о 19:15 в Громадський Хаб,
+                приходьте Чекаємо;)
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="secondAf col-md-7">
+            <div class="teatImg">
+              <div class="im-container">
+                <img src="img/teatr.png" />
+              </div>
+            </div>
+            <div class="textTeat">
+              Запрошуємо всіх небайдужих до проблем інших людей та всього
+              суспільства розділити переживання героїв цієї історії, та
+              спробувати разом знайти відповіді на гострі питання сьогодення. 1
+              грудня о 13:20 за адресою: І.Кудрі 33.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontakts">
+        <h2>Контакти</h2>
+        <div class="row">
+          <div class="socialKontakt col-md-6">
+            <h4>Шукайте нас у соціальних мережах:</h4>
+            <a href="https://www.facebook.com/ymcakyiv/"
+              ><span class="icon-facebook2"></span> Facebook</a
+            >
+            <a href="https://www.instagram.com/ymca_kyiv/"
+              ><span class="icon-instagram"></span> Instagram</a
+            >
+            <a href="https://www.youtube.com/channel/UCzCjeKxzVeggQ7eACJGVQQA"
+              ><span class="icon-youtube"></span> YouTube</a
+            >
+          </div>
+          <div class="socKont col-md-6">
+            <h4 class="if">
+              Якщо у Вас виникли запитання, пишіть та телефонуйте:
+            </h4>
+            <span>+38 (073) 800-11-11</span>
+            <span>+38 (068) 800-11-11</span>
+            <a href="mailto:YMCA_Kyiv@in.ua"
+              ><span class="icon-mail"></span> YMCA_Kyiv@in.ua</a
+            >
+          </div>
+        </div>
+      </section>
     </div>
-
-
-    
-
 
     <!-- jQuery (потрібно для JavaScript плагінів Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Підключення мінімізованої збірки всіх плагінів jQuery. Можна підключати додаткові плагіни, якщо потрібно -->
     <script src="js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
