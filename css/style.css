@@ -1,0 +1,487 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	/*height: 6000px;*/
+	position: relative;
+}
+
+header {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+div {
+    display: block;
+}
+
+
+
+.row {
+	margin-top: 20px;
+}
+
+
+
+.item, .slider: {
+	margin: 0 auto;
+}
+.item img {
+	margin: 0 auto;
+}
+
+.wrap {
+	width: 80%;
+    max-width: 1064px;
+    margin: 0 auto;
+
+}
+
+.wrap h3 {
+	float: right;
+	width: 300px;
+	text-align: right;
+	color: #ff0000;
+	font-size: 1.7em;
+	font-style: italic;
+	overflow: hidden;
+}
+
+
+.navbar-toggle {
+	float: left;
+}
+
+
+.navbar {
+	min-height: 0;
+}
+
+.navbar-default {
+	background-color: #4b4b4b;
+}
+
+.nav > li > a {
+	color: #ffffff;
+	margin: 0 auto;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #ff0000;
+	color: #ffffff;
+}
+
+.nav > li > a:active  {
+	background-color: #ff0000;
+	color: #ffffff;
+}
+
+section h2 {
+	font-size: 2em;
+	width: 220px;
+	background-color: rgba(255, 0, 0, 0.3);
+	border-radius: 5px;
+	margin-top: 30px;
+
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #ff0000;
+   }
+
+
+#events img, #nevs img, #programs img {
+	width: 100%
+}
+
+.im {
+	width: 130px;
+	height: 120px;
+	float: left;
+	position: relative;
+}
+
+#events .ev {
+	overflow: hidden;
+	background-color: #ffffff;
+	height: 150px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#nevs .ev {
+	overflow: hidden;
+	display: inline-block;
+	background-color: #ffffff;
+	height: 200px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.ev2 img {
+	height: 130px;
+}
+
+.texNews {
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+	padding-left: 5px;
+	background-color: rgba(255, 255, 255, 0.5); 
+}
+
+
+.content {
+	margin-top: 20px;
+}
+
+#ymca {
+	margin-top: 20px;
+}
+
+
+
+.imgWorld {
+	width: 300px;
+	float: left;
+	
+}
+
+.about {
+	margin: 0;
+}
+
+p {
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	font-size: 2em;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.more {
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.5);	
+}
+
+.more > img{
+	text-align: center;
+}
+
+.btn {
+	float: right;	
+}
+
+.moreText {
+	float: left;
+}
+
+.moreText > p {
+	width: 100%;
+}
+
+
+
+.content h2 {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 30px;
+	background-color: rgba(255, 0, 0, 0.4);
+}
+
+
+
+#programs {
+	margin-top: 20px;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.socProg, .scoutProg,.ten-cingProg, .campProg {
+	overflow: hidden;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 150px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#programs > .texNews, .col-sm-6 {
+	margin-top: 10px;
+}
+#programs > .im {
+	width: 300px;
+	height: 220px;
+}
+
+
+.textCont {
+	width: 40%;
+	padding-right: 10px;
+	float: right;
+	text-align: center;
+}
+
+
+#novosty {
+	margin-top: 20px;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.social, .lviv, .cop, .ten-cing {
+	overflow: hidden;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 150px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#novosty > .texNews, .col-sm-6 {
+	margin-top: 10px;
+}
+
+.ten-cing > .im {
+	width: 300px;
+	height: 220px;
+	position: relative;
+}
+
+#novosty > .im > img {
+	width: 300px;
+	height: 220px;
+	position: absolute;
+}
+
+
+
+#afisha {
+	margin-top: 20px;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#afisha > h2 {
+	margin-bottom: 10px;
+}
+
+#afisha > .im img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	max-width: 100%;
+}
+
+.firstAf > .im, .engAf > .im {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.firstAf > .im, .scoutAf > .im {
+	width: 220px;
+	height: 220px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#afisha > .textContA {
+	margin-left: 50px;
+	padding-left: 100px
+
+	width: 40%;
+	padding-right: 10px;
+	float: right;
+	text-align: center;
+}
+
+.firstAf .engAf, {
+	margin-left: 50px;
+}
+
+.firstAf .scoutAf {
+	margin-left: 20px;
+	float: right;
+}
+
+.scoutAf .textContA {
+	float: right;
+}
+
+.scoutAf img {
+	float: right;
+}
+
+.engAf {
+	width: 500px;
+	overflow: hidden;
+}
+
+.engAf .textContA {
+	float: right;
+}
+
+.engAf img {
+	float: left;
+}
+
+.scoutAf {
+	width: 500px;
+	overflow: hidden;
+	float: right;
+}
+
+
+.textContA {
+	width: 50%;
+	padding-left: 10px;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.textTeat {
+	width: 50%;
+	padding-left: 10px;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.teatImg {
+	float: left;
+}
+
+.secondAf {
+	margin-top: 30px;
+	margin-left: 25%;
+	float: right;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.secondAf .textTeat {
+	text-align: center;
+}
+
+#kontakts {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+h4 {
+	color: #000000;
+	font-size: 2em;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.socialKontakt {
+	float: left;
+	width: 50%;
+	margin: 0;
+}
+
+#kontakts a {
+	text-decoration: none;
+	font-size: 1.8em;
+	color: #000000;
+	display: block;
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+span {
+	text-decoration: none;
+	color: #000000;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.socKont {
+	width: 50%;
+	float: right;
+}
+
+
+.socKont > h4 {
+	
+}
+
+.socKont > span {
+	font-size: 1.8em;
+	color: #000000;
+	
+	display: block;
+}
+
+.socKont > a {
+	width: 50%;
+	float: right;
+	padding: 0;
+}
+
+
+
+
+
+.socKont > span {
+	width: 50%;
+	float: right;
+	overflow: hidden;
+	display: block;
+}
+
+
+@media screen and (max-width:1220px) {
+	.firstAf .row, .secondAf .row {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.secondAf {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.engAf {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.scoutAf {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.textTeat {
+		width: 60%;
+	}
+
+}
+
+
+
+@media screen and (max-width:768px) {
+	.container>li {
+		border-top: 0px solid transparent;
+		border-bottom: 2px solid transparent;
+	}
+	.container>li:hover {
+		border-top: 0px solid #1EE6FF;
+		border-bottom: 2px solid #1EE6FF;
+	}
+
+	#menu {
+		width: 150px;
+	}
+
+	.textTeat {
+		width: 40%;
+	}
+}
